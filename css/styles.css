@@ -404,11 +404,11 @@ header {
 .service3 i,
 .service3 h3,
 .service3 .cta {
-  color: #F26E79;
+  color: #FFBC42;
 }
 
 .service3:hover {
-  border: 2px solid #F26E79;
+  border: 2px solid #FFBC42;
 }
 
 .service .cta span {
