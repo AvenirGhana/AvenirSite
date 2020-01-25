@@ -641,9 +641,6 @@ footer {
       left: 0;
       bottom: -3px;
   }
-  .sub-headline {
-      font-size: 10rem;
-  }
   .first-letter {
       font-size: 12.2rem;
   }
@@ -652,7 +649,7 @@ footer {
       letter-spacing: 0.8rem;
   }
   .line {
-      max-width: 28rem;
+      max-width: 20rem;
   }
   .company-info {
       display: flex;
