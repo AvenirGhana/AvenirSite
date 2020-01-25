@@ -243,11 +243,12 @@ header {
   margin-right: -2px;
 }
 
-.cta-btn {
+.cta-btn, .qknow-btn {
   font-size: 1.5rem;
   background-color: #fff;
   padding: 0.9rem 1.8rem;
-  color: var(--body-font-color);    border-radius: 0.4rem;
+  color: var(--body-font-color);
+  border-radius: 0.4rem;
   transition: background-color 0.5s;
 }
 
@@ -402,11 +403,11 @@ header {
 .service3 i,
 .service3 h3,
 .service3 .cta {
-  color: #FFBC42;
+  color: var(--secondary-font-color);
 }
 
 .service3:hover {
-  border: 2px solid #FFBC42;
+  border: 2px solid var(--secondary-font-color);
 }
 
 .service .cta span {
@@ -422,6 +423,19 @@ header {
 }
 
 /* Qknow */
+.qknow-btn {
+  background-color: var(--secondary-font-color);
+  color: #fff;
+  border: var(--secondary-font-color) solid 1px;
+  margin-bottom: 4.5rem;
+}
+
+.qknow-btn:hover,
+.qknow-btn:focus {
+    color:var(--body-font-color);
+    background-color: #fff;
+    border: var(--secondary-font-color) solid 1px;
+}
 
 /* Contact Us */
 .contact-us {
@@ -668,13 +682,13 @@ footer {
     align-items: center;
     }
 
-    .qknow .company-description {
-      order: 2;
-    }
+  .qknow .company-description {
+    order: 2;
+  }
 
-    .qknow .company-info-img{
-      order: 1;
-    }
+  .qknow .company-info-img{
+    order: 1;
+  }
 
   .contact-box {
     max-width:800px;
@@ -691,5 +705,4 @@ footer {
       max-width: 51.3rem;
       margin: 0 auto 5.4rem;
   }
-
 }
