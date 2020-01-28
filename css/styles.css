@@ -442,6 +442,27 @@ header {
   background-color: #00C0FD;
 }
 
+.contact-card {
+  max-width: 600px;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 3.4rem;
+  list-style-type: none;
+}
+
+.contact-card i {
+  font-size: 3.5rem;
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.contact-card li {
+  margin-bottom: 1.4rem;
+}
+
+
 .contact-box {
 	max-width:400px;
 	width:100%;
@@ -690,8 +711,9 @@ footer {
     order: 1;
   }
 
-  .contact-box {
-    max-width:800px;
+  .contact-box,
+  .contact-card {
+    max-width:600px;
     width:100%;
     margin:0 auto;
     position:relative;
