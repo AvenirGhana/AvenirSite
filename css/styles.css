@@ -45,6 +45,7 @@ a {
 
 p {
   font-size: 1.6rem;
+  line-height: 1.6;
 }
 
 .container {
@@ -293,7 +294,7 @@ header {
 }
 
 .company-description p {
-  line-height: 1.6rem;
+  line-height: 1.6;
   margin-bottom: 2.4rem;
   margin-top: 2.4rem;
 }
@@ -705,6 +706,7 @@ footer {
 
   .qknow .company-description {
     order: 2;
+    padding: 1.2rem;
   }
 
   .qknow .company-info-img{
