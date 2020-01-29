@@ -730,3 +730,17 @@ footer {
       margin: 0 auto 5.4rem;
   }
 }
+
+/* Animations */
+@keyframes up {
+  0% {
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+      transform: translateY(-1rem);
+  }
+}
